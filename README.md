@@ -1,38 +1,81 @@
 # Core - Google and Stack Overflow
 
+Using the internet to search for answers to problems is a tool
+essential to everyone's success. This discussion covers Google 
+and Stackoverflow. 
+
+While you may be familiar with Google and Stackoverflow the 
+material here may supplement your knowledgeor surprise you. 
+
+**Theory and Knowledge**
+
+- Using search tools effectively
+  - Assessing search results 
+  - Defining and Refining Search terms
+- Acccessing and contributing to a knowledge base
+
+**Lecture and Dicussion**
+
+- Use Google more effectively 
+- Parsing Error messages for relevant search terms
+- Searching for answers in a knowledge base: StackOverflow
+- Contributing to the knowledge base: StackOverflow
 
 ## Google 
 
-How do you use Google? Do you rely on the top search results? 
+How do you use Google? Do you rely on the top search results?
 
 https://www.wired.com/2011/11/st_thompson_searchresults
 
-You should be assessing the results and deciding whether the 
-answers are reliable and on topic. 
+**While google is really good, and provides the best available 
+search results you should always be assessing the results.**
 
 When you search these are questions you should be asking: 
 
 - How accurately do these results match the answer I'm looking for?
 - How credible/knowledgeable is the source?
   - When was this answer published?
+  
+When the results are not as accurate as you would like look 
+closely at the search terms you have used and think of how 
+you can refine them for better results.
+
+These tactics can help:
+
+- Remove unneccessary words
+- Refining terms
+- Rephrasing the question
+
+**Keep searching**, while Google is very good at what it does **sometimes 
+the first set of results will not be what you are looking for**. 
 
 ### Google more effectively
 
 Use effective keywords. The more descriptive you can be 
 the better your results.
 
-Google matches key words it doesn't answer questions.
-Identify key words. 
+**Exercise:**
+
+Search for the following listed terms. 
+
+Google matches key words:
 
 - A who
 - The Who
 - Who
 
-Order matters 
+Order matters:
+
 - Sky Blue 
 - Blue Sky
 
-Search term modifiers:
+**Discussion**
+
+Search terms and order of search terms.
+
+**Exercise** Pair and Share
+
+Take a look at this article and discuss it with your partner. 
 
 - http://mashable.com/2011/11/24/google-search-infographic/#yMlfd4pRaGqW
 
@@ -44,6 +87,10 @@ information will at the top of an error.
 
 Many times part of the error will contain identifiers that you 
 have created these may not be relevant. 
+
+**Exercise**
+
+Examine the error message below and pick out the most effective search terms. 
 
 ```
 Playground execution failed: error: Equatable.playground:5:25: error: 'Self' is only 
@@ -116,7 +163,15 @@ as the result of a method in a class; did you mean 'Person'?
     frame #54: 0x00007fff9590a235 libdyld.dylib`start + 1
 ```
 
-Try these searches. Imagine you want to: 
+**Exercise**
+
+Imagine you have to solve a problem and need to search for information
+that will help. 
+
+Try these searches. Imagine you want to randomize an array of 
+objects and you need the process to be as unpredicatble as possible. 
+
+Split into teams, each team searches for one of the ideas below. 
 
 1. Learn how to rearrange the elements of an collection?
 2. Understand how random are random numbers?
@@ -130,16 +185,41 @@ Try these searches. Imagine you want to:
 
 ### Google Utilities
 
-1. Definition
-2. Calculator
-3. Timer
-4. Conversions
-5. Games
-6. Easter eggs
-7. Do a barrel roll
-8. Zerg Rush
+Google has a bunch of built in utilities. Some of these are fun diversions 
+while others are truly useful tools. 
 
-## Stack Overflow
+1. Definition
+1. Calculator
+1. Timer
+1. Conversions
+1. Translations
+1. Images 
+1. Games
+1. Easter eggs
+1. Do a barrel roll
+1. Zerg Rush
+
+**Exercise**
+
+Try out the Google utilities above. 
+
+### The Most important point
+
+Google has done a great job making the Google search engine an amazingly 
+easy tool to use. Look at it closely. There tool is not an accident, it 
+has evolved and improved over time. 
+
+**Discussion**
+
+Final thoughts and discusion on Google, search, and terms. 
+
+## Stack Overflow: Knowledge Base
+
+Anyone who has a question about software development has seen answers to 
+common questions on Stackoverflow. This discussion will take a closer look
+at Stackoverflow. 
+
+Here is how Stackoverflow describes themselves:
 
 > Stack Overflow is a question and answer site for professional and enthusiast 
 > programmers. It's built and run by you as part of the Stack Exchange network of 
@@ -152,35 +232,95 @@ There are Stack Exchanges for almost every topic.
 
 - https://stackexchange.com/sites
 
+Look at the stack exachanges for things that you enjoy that aren't necessarily 
+software related. 
+
+**Exercise**
+
+Look through the Stack Exchanges for things that interest you. 
+
 ### Tour Stack Overflow
 
 - https://stackoverflow.com/tour
 
-It also a good place to build a reputation. This is good for 
-job applications. 
+**Reputation**
+
+Stackoverflow is a good place to build a reputation. This is good for 
+_job applications_. 
+
+**Things to avoid**
 
 People can be snarky. Ignore rude behavior if you encounter it. 
 do not take any conversation on the internet personally. 
+
 Remember! While diamonds last a life time the internet is forever!
 
-What to look for when reading a question. 
+**What to look for when reading a question**
 
-What to look for in an answer. Read the comments. 
+Look for questions that outline and describe a specific question or
+problem. 
 
-When asking questions: 
+Look for things the post may have already tried. 
+
+Look for code samples.
+
+**What to look for in an answer** 
+
+Besides the answer read the comments. 
+
+Look for code samples. 
+
+**When asking questions:**
+
   - Write a clear description. Short and to the point. 
-  avoid unnecessary language. Terse but accurate. 
+  avoid unnecessary language. Strive for terse but accurate. 
+  - Include solutions that you have tried already. 
+  - Include only the relevent portion of any error messages. 
+    - Format the errors. 
   - Include a code snippet. Use Stack Overflow's formmatting. 
+  - Proof read your work before submitting. 
   
-When answering questions: 
+**When answering questions:**
+
   - Write a clear and intelligable answer. 
+    - Avoid trying to sound smug or snarky.
   - Avoid extraneous language. 
-  - Use formmatting 
+  - Use formmatting. Especially for code samples. 
   - Answer your own questions when you can. 
   
-Developper stories. 
+The most imporant thing to remember when using Stackoverflow 
+is to **be profesional**. 
 
-### Activities
+### Developer Survey
+
+Stack Overflow provides a great look into the world of developers. 
+This is a survey of developers on Stackoverflow that covers a 
+wide range of metrics. The information is informative and interesting. 
+
+- https://insights.stackoverflow.com/survey/2017
+
+What are some outstanding facts? 
+
+**Exercise** 
+
+Read the developer survey. Look for interesting facts and statistics 
+that interest you or that may have an effect on your future.
+
+**Discuss**
+
+Discuss the developer survey. 
+  
+### Developer story 
+
+Stackoverflow provides a service called Developer Story. This 
+acts as an online resume for developers. Consider joining and 
+using it to track your progress and work.
+
+- https://stackoverflow.com/users/story/join
+
+### After Class
+
+**Challenges**
 
 1. Make an account on Stack Overflow. 
 2. Search for a solution to the random array? 
@@ -191,30 +331,18 @@ Developper stories.
   - Post the question. 
     - Notice the question may already exist! The site suggests existing questions. 
     - Explain your question as clearly and concisely as you can. 
-      - Format your answer!
-    - Use tags. Follow the rules for tags. 
+      - Format your answer! (Look at the Stackoverflow formatting guide)
+    - Use tags. 
+      - Follow the rules for tags. (Read the guide for using tags on stackoverflow) 
 4. Look at new questions and try your best to provide an answer. 
   - Format your answer. 
   - Write a good answer. Keep it clear and concise. 
-  
-- Who can get the highest rep? 
-- Did anyone earn a badge?
 
-### Developer Stories
+**Stretch Challenges**
 
-This is a feature that acts like your resume on Stack Overflow. You can build it 
-over time. 
-
-- https://stackoverflow.com/users/story/join
-
-Start your developer story. 
-
-### Developer Survey
-
-Stack Overflow provides a great look into the world of developers. What they 
-do in what quantities, who they are (sort of), and where and what they work on. 
-
-- https://insights.stackoverflow.com/survey/2017
-
-What are some outstanding facts? 
+- Try and increase your Reputation on Stackoverflow (you need to post, comment, and answer questions) 
+- Earn a badge
+  - How many badges can you earn in a week. 
+- Start a StackoverFlow Developer Story. 
+  - https://stackoverflow.com/users/story/join
 
